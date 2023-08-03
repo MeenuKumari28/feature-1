@@ -352,3 +352,104 @@ $feature-details-3.body
 
 -- end: feature-details-3
 
+
+
+
+
+
+
+
+
+
+-- component feature-4:
+caption title:
+body body:
+string sub-title:
+common.features-list-1 list features-1:
+
+-- ftd.row:
+width: fill-container
+spacing.fixed.px: 64
+align-self: center
+padding-vertical.px: 24
+padding-horizontal.px: 24
+
+-- ftd.column:
+width.fixed.px: 550
+spacing.fixed.px: 16
+
+-- ftd.text: $feature-4.sub-title
+role: $inherited.types.label-large
+color: $inherited.colors.text
+style: bold
+
+-- ftd.text: $feature-4.title
+role: $inherited.types.heading-medium
+color: $inherited.colors.text-strong
+
+-- ftd.text:
+role: $inherited.types.copy-small
+color: $inherited.colors.text
+
+$feature-4.body
+
+-- end: ftd.column
+
+-- ftd.row:
+width: fill-container
+wrap: true
+spacing.fixed.px: 48
+
+-- feature-details-4:
+$loop$: $feature-4.features-1 as $obj
+title: $obj.title
+body: $obj.body
+icon: $obj.icon
+
+-- end: ftd.row
+
+-- end: ftd.row
+
+-- end: feature-4
+
+
+
+
+
+
+
+
+
+
+-- component feature-details-4:
+caption title:
+body body:
+ftd.image-src icon:
+
+-- ftd.column:
+width.fixed.px: 397
+spacing.fixed.px: 16
+
+-- ftd.image:
+src: $feature-details-4.icon
+width: auto
+
+-- ftd.column:
+spacing.fixed.px: 8
+
+-- ftd.text: $feature-details-4.title
+role: $inherited.types.copy-regular
+color: $inherited.colors.text-strong
+style: bold
+
+-- ftd.text:
+role: $inherited.types.copy-small
+color: $inherited.colors.text-strong
+
+$feature-details-4.body
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: feature-details-4

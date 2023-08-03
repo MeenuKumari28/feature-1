@@ -23,6 +23,7 @@ favicon: /-/meenukumari28.github.io/feature-component/favicon.ico
 - Feature 1: feature-1/
 - Feature 2: feature-2/
 - Feature 3: feature-3/
+- Feature 4: feature-4/
 
 # Doc: components/
 
@@ -30,4 +31,5 @@ favicon: /-/meenukumari28.github.io/feature-component/favicon.ico
   - feature-1: components/feature-1
   - feature-2: components/feature-2
   - feature-3: components/feature-3
+  - feature-4: components/feature-4
 
