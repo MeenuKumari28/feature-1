@@ -1,5 +1,8 @@
--- ds.page:
-full-width: true
+-- site-doc.doc-home:
+current-package: meenukumari28.github.io/feature-component
+show-tabs: false
+site-title: Feature 1
+github-url: https://github.com/meenukumari28/feature-component
 
 -- ds.feature-2: We Transform ideas into digital outcomes
 sub-title: KICKER
@@ -46,4 +49,4 @@ type: Record (`required`)
 
 It's used to add list content to `feature-2` component. 
 
--- end: ds.page
+-- end: site-doc.doc-home
