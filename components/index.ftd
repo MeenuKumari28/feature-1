@@ -14,50 +14,12 @@ colors: $ftd.default-colors
 
 -- ds.feature-1: We Transform ideas into digital outcomes
 sub-title: KICKER
-features: $common.feature-lists
+features-1: $common.feature-lists-1
 
 We are an award-winning strategic design company that provides consultancy
 services and help you create outstanding digital products.
 
--- end: site-doc.output
-
--- site-doc.header: How to use
-
--- cb.code: Add `feature-1` dependency into your FASTN.ftd
-lang: ftd
-
-\-- fastn.dependency: meenukumari28.github.io/feature-1
-
--- cb.code: Add `-- feature-1` component inside your `.ftd` file 
-lang: ftd
-
-\-- feature-1: We Transform ideas into digital outcomes
-sub-title: KICKER
-features: $common.feature-lists
-
-We are an award-winning strategic design company that provides consultancy
-services and help you create outstanding digital products.
-
--- site-doc.header: Properties:
-
-Below are details of all properties of `feature-1` component.
-
--- site-doc.component-property: `title`
-type: Caption (`required`)
-
-It's used to title to the `feature-1` component.
-
--- site-doc.component-property: `body`
-type: Body (`required`)
-
-It's used to add body content to `feature-1` component. 
-
--- site-doc.component-property: `list`
-type: Record (`required`)
-
-It's used to add list content to `feature-1` component. 
-
--- site-doc.header: What is a feature-1 component
+-- site-doc.header: What is a feature-1 component ?
 
 Feature-1 components refer to a component where you can add all types of featured that you provide.
 
@@ -70,5 +32,7 @@ file:
 lang: ftd
 
 \-- fastn.dependency: meenukumari28.github.io/feature-1
+
+-- end: site-doc.output
 
 -- end: site-doc.doc-home

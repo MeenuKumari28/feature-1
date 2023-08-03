@@ -20,7 +20,14 @@ favicon: /-/meenukumari28.github.io/feature-1/favicon.ico
 
 # Home: index.html
 
+- Feature 1: feature-1/
+- Feature 2: feature-2/
+- Feature 3: feature-3/
+
 # Doc: components/
 
-- feature-1 Overview: index.html
+- Feature Overview: components/
+  - feature-1: components/feature-1
+  - feature-2: components/feature-2
+  - feature-3: components/feature-3
 

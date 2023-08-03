@@ -1,14 +1,36 @@
--- ds.page:
-full-width: true
+-- site-doc.doc-home: Feature-1
+current-package: meenukumari28.github.io/feature-1
+show-tabs: false
+site-title: Feature 1
+github-url: https://github.com/meenukumari28/feature-1
 
--- feature-1: We Transform ideas into digital outcomes
+-- site-doc.output:
+colors: $ftd.default-colors
+
+-- ds.feature-1: We Transform ideas into digital outcomes
 sub-title: KICKER
-features: $common.feature-lists
+features-1: $common.feature-lists-1
 
 We are an award-winning strategic design company that provides consultancy
 services and help you create outstanding digital products.
 
--- end: ds.page
+-- site-doc.header: What is a feature-1 component ?
+
+Feature-1 components refer to a component where you can add all types of featured that you provide.
+
+-- site-doc.header: How to use feature-1 ?
+
+To use feature-1 components on your [fastn](https://fastn.com/) web project, add below into `FASTN.ftd`
+file:
+
+-- cb.code:
+lang: ftd
+
+\-- fastn.dependency: meenukumari28.github.io/feature-1
+
+-- end: site-doc.output
+
+-- end: site-doc.doc-home
 
 
 
@@ -23,7 +45,7 @@ services and help you create outstanding digital products.
 caption title:
 body body:
 string sub-title:
-common.features-list list features:
+common.features-list-1 list features-1:
 
 -- ftd.column:
 width: fill-container
@@ -62,8 +84,8 @@ spacing.fixed.px: 86
 margin-vertical.px: 96
 align-content: center
 
--- feature-details:
-$loop$: $feature-1.features as $obj
+-- feature-details-1:
+$loop$: $feature-1.features-1 as $obj
 title: $obj.title
 body: $obj.body
 icon: $obj.icon
@@ -83,7 +105,7 @@ icon: $obj.icon
 
 
 
--- component feature-details:
+-- component feature-details-1:
 caption title:
 body body:
 ftd.image-src icon:
@@ -93,13 +115,13 @@ width.fixed.px: 446
 spacing.fixed.px: 24
 
 -- ftd.image:
-src: $feature-details.icon
+src: $feature-details-1.icon
 width: auto
 
 -- ftd.column:
 spacing.fixed.px: 8
 
--- ftd.text: $feature-details.title
+-- ftd.text: $feature-details-1.title
 role: $inherited.types.copy-regular
 color: $inherited.colors.text-strong
 style: bold
@@ -108,10 +130,224 @@ style: bold
 role: $inherited.types.copy-small
 color: $inherited.colors.text-strong
 
-$feature-details.body
+$feature-details-1.body
 
 -- end: ftd.column
 
 -- end: ftd.row
 
--- end: feature-details
+-- end: feature-details-1
+
+
+
+
+
+
+
+
+
+
+-- component feature-2:
+caption title:
+body body:
+string sub-title:
+common.features-list-2 list features-2:
+
+-- ftd.column:
+width: fill-container
+padding-vertical.px: 24
+padding-horizontal.px: 24
+align-content: center
+
+-- ftd.column:
+width.fixed.px: 730
+spacing.fixed.px: 24
+align-content: center
+
+-- ftd.text: $feature-2.sub-title
+role: $inherited.types.label-large
+color: $inherited.colors.text
+style: bold
+
+-- ftd.text: $feature-2.title
+role: $inherited.types.heading-medium
+color: $inherited.colors.text-strong
+text-align: center
+
+-- ftd.text:
+role: $inherited.types.copy-large
+color: $inherited.colors.text
+text-align: center
+
+$feature-2.body
+
+-- end: ftd.column
+
+-- ftd.row:
+width: fill-container
+wrap: true
+spacing.fixed.px: 32
+margin-vertical.px: 96
+align-content: center
+
+-- feature-details-2:
+$loop$: $feature-2.features-2 as $obj
+title: $obj.title
+body: $obj.body
+icon: $obj.icon
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: feature-2
+
+
+
+
+
+
+
+
+
+
+-- component feature-details-2:
+caption title:
+body body:
+ftd.image-src icon:
+
+-- ftd.column:
+width.fixed.px: 388
+spacing.fixed.px: 24
+background.solid: $inherited.colors.background.step-1
+padding.px: 24
+
+-- ftd.image:
+src: $feature-details-2.icon
+width: auto
+
+-- ftd.column:
+spacing.fixed.px: 8
+
+-- ftd.text: $feature-details-2.title
+role: $inherited.types.copy-regular
+color: $inherited.colors.text-strong
+style: bold
+
+-- ftd.text:
+role: $inherited.types.copy-small
+color: $inherited.colors.text-strong
+
+$feature-details-2.body
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: feature-details-2
+
+
+
+
+
+
+
+
+
+
+-- component feature-3:
+caption title:
+body body:
+string sub-title:
+common.features-list-3 list features-3:
+
+-- ftd.column:
+width: fill-container
+padding-vertical.px: 24
+padding-horizontal.px: 24
+align-content: center
+
+-- ftd.column:
+width.fixed.px: 730
+spacing.fixed.px: 24
+align-content: center
+
+-- ftd.text: $feature-3.sub-title
+role: $inherited.types.label-large
+color: $inherited.colors.text
+style: bold
+
+-- ftd.text: $feature-3.title
+role: $inherited.types.heading-medium
+color: $inherited.colors.text-strong
+text-align: center
+
+-- ftd.text:
+role: $inherited.types.copy-large
+color: $inherited.colors.text
+text-align: center
+
+$feature-3.body
+
+-- end: ftd.column
+
+-- ftd.row:
+width: fill-container
+wrap: true
+spacing.fixed.px: 86
+margin-vertical.px: 96
+align-content: center
+
+-- feature-details-3:
+$loop$: $feature-3.features-3 as $obj
+title: $obj.title
+body: $obj.body
+icon: $obj.icon
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: feature-3
+
+
+
+
+
+
+
+
+
+
+-- component feature-details-3:
+caption title:
+body body:
+ftd.image-src icon:
+
+-- ftd.row:
+width.fixed.px: 446
+spacing.fixed.px: 24
+
+-- ftd.image:
+src: $feature-details-3.icon
+width: auto
+
+-- ftd.column:
+spacing.fixed.px: 8
+
+-- ftd.text: $feature-details-3.title
+role: $inherited.types.copy-regular
+color: $inherited.colors.text-strong
+style: bold
+
+-- ftd.text:
+role: $inherited.types.copy-small
+color: $inherited.colors.text-strong
+
+$feature-details-3.body
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: feature-details-3
