@@ -1,40 +1,119 @@
--- ds.page: Welcome to doc-site
+-- import: meenukumari28.github.io/feature-1/common
 
+-- ds.page:
+full-width: true
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
+-- feature-1: We Transform ideas into digital outcomes
+sub-title: KICKER
+features: $common.feature-lists
 
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
-
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
-
--- ds.h3: 🚀 Fast Track 
-
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
-
--- ds.h3: 🌟 Whats next?
-
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
-
--- ds.h3: 👀 Want to learn more?
-
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
-
-
--- ds.h3: 🎯 Used by?
-
-Our all documentation sites uses this `doc-site` theme.
-
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
-
--- ds.h2: Learn fastn and become a pro?
-
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+We are an award-winning strategic design company that provides consultancy
+services and help you create outstanding digital products.
 
 -- end: ds.page
+
+
+
+
+
+
+
+
+
+
+-- component feature-1:
+caption title:
+body body:
+string sub-title:
+common.features-list list features:
+
+-- ftd.column:
+width: fill-container
+padding-vertical.px: 24
+padding-horizontal.px: 24
+align-content: center
+
+-- ftd.column:
+width.fixed.px: 730
+spacing.fixed.px: 24
+align-content: center
+
+-- ftd.text: $feature-1.sub-title
+role: $inherited.types.label-large
+color: $inherited.colors.text
+style: bold
+
+-- ftd.text: $feature-1.title
+role: $inherited.types.heading-medium
+color: $inherited.colors.text-strong
+text-align: center
+
+-- ftd.text:
+role: $inherited.types.copy-large
+color: $inherited.colors.text
+text-align: center
+
+$feature-1.body
+
+-- end: ftd.column
+
+-- ftd.row:
+width: fill-container
+wrap: true
+spacing.fixed.px: 86
+margin-vertical.px: 96
+align-content: center
+
+-- feature-details:
+$loop$: $feature-1.features as $obj
+title: $obj.title
+body: $obj.body
+icon: $obj.icon
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: feature-1
+
+
+
+
+
+
+
+
+
+
+-- component feature-details:
+caption title:
+body body:
+ftd.image-src icon:
+
+-- ftd.row:
+width.fixed.px: 446
+spacing.fixed.px: 24
+
+-- ftd.image:
+src: $feature-details.icon
+width: auto
+
+-- ftd.column:
+spacing.fixed.px: 8
+
+-- ftd.text: $feature-details.title
+role: $inherited.types.copy-regular
+color: $inherited.colors.text-strong
+style: bold
+
+-- ftd.text:
+role: $inherited.types.copy-small
+color: $inherited.colors.text-strong
+
+$feature-details.body
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: feature-details
