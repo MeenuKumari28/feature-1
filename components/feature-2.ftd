@@ -13,12 +13,12 @@ services and help you create outstanding digital products.
 -- cb.code: Add `feature-1` dependency into your FASTN.ftd
 lang: ftd
 
-\-- fastn.dependency: meenukumari28.github.io/feature-1
+\-- fastn.dependency: meenukumari28.github.io/feature-components
 
 -- cb.code: import `feature-2` inside your `.ftd` file
 lang: ftd
 
-\-- import: meenukumari28.github.io/feature-1/feature-2
+\-- import: meenukumari28.github.io/feature-components/feature-2
 
 \-- ds.feature-2: We Transform ideas into digital outcomes
 sub-title: KICKER

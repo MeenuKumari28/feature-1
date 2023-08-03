@@ -1,7 +1,7 @@
 -- import: fastn
 
--- fastn.package: meenukumari28.github.io/feature-1
-favicon: /-/meenukumari28.github.io/feature-1/favicon.ico
+-- fastn.package: meenukumari28.github.io/feature-component
+favicon: /-/meenukumari28.github.io/feature-component/favicon.ico
 
 -- fastn.dependency: fastn-community.github.io/doc-site as doc-site
 -- fastn.dependency: fastn-community.github.io/site-doc
@@ -9,9 +9,9 @@ favicon: /-/meenukumari28.github.io/feature-1/favicon.ico
 -- fastn.dependency: fastn-community.github.io/footer
 -- fastn.dependency: fastn-community.github.io/roboto-typography
 
--- fastn.auto-import: meenukumari28.github.io/feature-1/FASTN/ds
--- fastn.auto-import: meenukumari28.github.io/feature-1/assets
--- fastn.auto-import: meenukumari28.github.io/feature-1/common
+-- fastn.auto-import: meenukumari28.github.io/feature-component/FASTN/ds
+-- fastn.auto-import: meenukumari28.github.io/feature-component/assets
+-- fastn.auto-import: meenukumari28.github.io/feature-component/common
 -- fastn.auto-import: doc-site
 -- fastn.auto-import: fastn-community.github.io/site-doc
 -- fastn.auto-import: fastn-community.github.io/code-block as cb
