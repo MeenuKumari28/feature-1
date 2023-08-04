@@ -1,7 +1,7 @@
 -- site-doc.doc-home: Feature-1
 current-package: meenukumari28.github.io/feature-components
 show-tabs: false
-site-title: Feature 1
+site-title: Feature Component
 github-url: https://github.com/meenukumari28/feature-1
 
 -- site-doc.output:
@@ -453,3 +453,286 @@ $feature-details-4.body
 -- end: ftd.column
 
 -- end: feature-details-4
+
+
+
+
+
+
+
+
+
+
+-- component feature-5:
+caption title:
+body body:
+string sub-title:
+common.features-list-2 list features-2:
+
+-- ftd.column:
+width: fill-container
+padding-vertical.px: 24
+padding-horizontal.px: 24
+
+-- ftd.column:
+width.fixed.px: 730
+spacing.fixed.px: 24
+
+-- ftd.text: $feature-5.sub-title
+role: $inherited.types.label-large
+color: $inherited.colors.text
+style: bold
+
+-- ftd.text: $feature-5.title
+role: $inherited.types.heading-medium
+color: $inherited.colors.text-strong
+
+-- ftd.text:
+role: $inherited.types.copy-large
+color: $inherited.colors.text
+
+$feature-5.body
+
+-- end: ftd.column
+
+-- ftd.row:
+width: fill-container
+wrap: true
+spacing.fixed.px: 32
+margin-vertical.px: 96
+
+-- feature-details-5:
+$loop$: $feature-5.features-2 as $obj
+title: $obj.title
+body: $obj.body
+icon: $obj.icon
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: feature-5
+
+
+
+
+
+
+
+
+
+
+-- component feature-details-5:
+caption title:
+body body:
+ftd.image-src icon:
+
+-- ftd.column:
+width.fixed.px: 388
+spacing.fixed.px: 24
+padding.px: 24
+
+-- ftd.image:
+src: $feature-details-5.icon
+width: auto
+
+-- ftd.column:
+spacing.fixed.px: 8
+
+-- ftd.text: $feature-details-5.title
+role: $inherited.types.copy-regular
+color: $inherited.colors.text-strong
+style: bold
+
+-- ftd.text:
+role: $inherited.types.copy-small
+color: $inherited.colors.text-strong
+
+$feature-details-5.body
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: feature-details-5
+
+
+
+
+
+
+
+
+
+
+-- component feature-6:
+common.features-list-1 list features-1:
+
+-- ftd.column:
+width: fill-container
+padding-vertical.px: 24
+padding-horizontal.px: 24
+
+-- ftd.row:
+width: fill-container
+wrap: true
+spacing.fixed.px: 32
+margin-vertical.px: 96
+
+-- feature-details-5:
+$loop$: $feature-6.features-1 as $obj
+title: $obj.title
+body: $obj.body
+icon: $obj.icon
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: feature-6
+
+
+
+
+
+
+
+
+
+
+-- component feature-details-6:
+caption title:
+body body:
+ftd.image-src icon:
+
+-- ftd.column:
+width.fixed.px: 388
+spacing.fixed.px: 24
+padding.px: 24
+
+-- ftd.image:
+src: $feature-details-6.icon
+width: auto
+
+-- ftd.column:
+spacing.fixed.px: 8
+
+-- ftd.text: $feature-details-6.title
+role: $inherited.types.copy-regular
+color: $inherited.colors.text-strong
+style: bold
+
+-- ftd.text:
+role: $inherited.types.copy-small
+color: $inherited.colors.text-strong
+
+$feature-details-6.body
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: feature-details-6
+
+
+
+
+
+
+
+
+
+
+-- component feature-7:
+caption title:
+body body:
+ftd.image-src icon:
+ftd.image-src image:
+
+-- ftd.row:
+width: fill-container
+spacing: space-between
+align-content: center
+
+-- ftd.column:
+spacing.fixed.px: 16
+
+-- ftd.image:
+src: $feature-7.icon
+width: auto
+
+-- ftd.text: $feature-7.title
+role: $inherited.types.heading-medium
+color: $inherited.colors.text-strong
+style: regular
+
+-- ftd.text:
+role: $inherited.types.copy-regular
+color: $inherited.colors.text
+style: regular
+
+$feature-7.body
+
+-- ftd.row:
+spacing.fixed.px: 16
+
+-- button: Button
+link: index.html
+icon: $assets.files.assets.tick.svg
+
+-- button: Button
+link: index.html
+icon: $assets.files.assets.tick.svg
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- ftd.image:
+src: $feature-7.image
+height.fixed.px: 727
+width: auto
+
+-- end: ftd.row
+
+-- end: feature-7
+
+
+
+
+
+
+
+
+
+
+-- component button:
+caption title:
+string link:
+optional ftd.image-src icon:
+boolean $cta-hover: false
+
+-- ftd.row:
+padding-vertical.px: 10
+padding-horizontal.px: 28
+background.solid: $inherited.colors.cta-primary.base
+margin-top.px: 32
+background.solid if { button.cta-hover }: $inherited.colors.cta-primary.hover
+$on-mouse-enter$: $ftd.set-bool($a = $button.cta-hover, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $button.cta-hover, v = false)
+link: $button.link
+border-radius.px: 4
+
+-- ftd.text: $button.title
+color: $inherited.colors.cta-primary.text
+role: $inherited.types.button-large
+
+-- ftd.image:
+if: { button.icon != NULL }
+src: $button.icon
+margin-left.px: 8
+align-self: center
+
+-- end: ftd.row
+
+-- end: button

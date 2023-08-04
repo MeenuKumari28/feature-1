@@ -1,0 +1,11 @@
+-- ds.page:
+full-width: true
+
+-- ds.feature-7: We Transform ideas into digital outcomes
+icon: $assets.files.assets.icon.svg
+image: $assets.files.assets.placeholder.svg
+
+We are an award-winning strategic design company that provides consultancy
+services and help you create outstanding digital products.
+
+-- end: ds.page

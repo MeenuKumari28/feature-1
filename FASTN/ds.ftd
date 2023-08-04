@@ -6,7 +6,7 @@
 export: markdown,h0,h1,h2,h3,code,rendered,output,image,iframe,youtube,compact-text,post,posts,featured-post,image-first,image-in-between,without-image,author-bio,tip,not-found-1,not-found-2,link,link-group
 
 -- import: meenukumari28.github.io/feature-component/
-export: feature-1, feature-2, feature-3, feature-4
+export: feature-1, feature-2, feature-3, feature-4, feature-5, feature-6, feature-7
 
 -- common.site-logo site-logo: $assets.files.assets.ipsum-logo.svg
 
