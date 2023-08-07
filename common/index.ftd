@@ -1,28 +1,114 @@
--- record features-list:
+-- record features-list-1:
 caption title:
 body body:
 ftd.image-src icon:
 
--- features-list list feature-lists:
+-- features-list-1 list feature-lists-1:
 
--- features-list: Strategy and Consultancy
+-- features-list-1: Strategy and Consultancy
 icon: $assets.files.assets.icon.svg
 
 We are an award-winning strategic design company that provides consultancy services and help you create outstanding digital products.
 
--- features-list: Strategy and Consultancy
+-- features-list-1: Strategy and Consultancy
 icon: $assets.files.assets.icon.svg
 
 We are an award-winning strategic design company that provides consultancy services and help you create outstanding digital products.
 
--- features-list: Strategy and Consultancy
+-- features-list-1: Strategy and Consultancy
 icon: $assets.files.assets.icon.svg
 
 We are an award-winning strategic design company that provides consultancy services and help you create outstanding digital products.
 
--- features-list: Strategy and Consultancy
+-- features-list-1: Strategy and Consultancy
 icon: $assets.files.assets.icon.svg
 
 We are an award-winning strategic design company that provides consultancy services and help you create outstanding digital products.
 
--- end: feature-lists
+-- end: feature-lists-1
+
+
+
+
+
+
+
+
+
+
+-- record features-list-2:
+caption title:
+body body:
+ftd.image-src icon:
+
+-- features-list-2 list feature-lists-2:
+
+-- features-list-2: Strategy and Consultancy
+icon: $assets.files.assets.icon.svg
+
+We are an award-winning strategic design company that provides consultancy services and help you create outstanding digital products.
+
+-- features-list-2: Strategy and Consultancy
+icon: $assets.files.assets.icon.svg
+
+We are an award-winning strategic design company that provides consultancy services and help you create outstanding digital products.
+
+-- features-list-2: Strategy and Consultancy
+icon: $assets.files.assets.icon.svg
+
+We are an award-winning strategic design company that provides consultancy services and help you create outstanding digital products.
+
+-- features-list-2: Strategy and Consultancy
+icon: $assets.files.assets.icon.svg
+
+We are an award-winning strategic design company that provides consultancy services and help you create outstanding digital products.
+
+-- features-list-2: Strategy and Consultancy
+icon: $assets.files.assets.icon.svg
+
+We are an award-winning strategic design company that provides consultancy services and help you create outstanding digital products.
+
+-- features-list-2: Strategy and Consultancy
+icon: $assets.files.assets.icon.svg
+
+We are an award-winning strategic design company that provides consultancy services and help you create outstanding digital products.
+
+-- end: feature-lists-2
+
+
+
+
+
+
+
+
+
+
+-- record features-list-3:
+caption title:
+body body:
+ftd.image-src icon:
+
+-- features-list-3 list feature-lists-3:
+
+-- features-list-3: Strategy and Consultancy
+icon: $assets.files.assets.icon-1.svg
+
+We are an award-winning strategic design company that provides consultancy services and help you create outstanding digital products.
+
+-- features-list-3: Strategy and Consultancy
+icon: $assets.files.assets.icon-1.svg
+
+We are an award-winning strategic design company that provides consultancy services and help you create outstanding digital products.
+
+-- features-list-3: Strategy and Consultancy
+icon: $assets.files.assets.icon-1.svg
+
+We are an award-winning strategic design company that provides consultancy services and help you create outstanding digital products.
+
+-- features-list-3: Strategy and Consultancy
+icon: $assets.files.assets.icon-1.svg
+
+We are an award-winning strategic design company that provides consultancy services and help you create outstanding digital products.
+
+-- end: feature-lists-3

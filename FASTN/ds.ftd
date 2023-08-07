@@ -5,6 +5,9 @@
 -- import: fastn-community.github.io/doc-site/
 export: markdown,h0,h1,h2,h3,code,rendered,output,image,iframe,youtube,compact-text,post,posts,featured-post,image-first,image-in-between,without-image,author-bio,tip,not-found-1,not-found-2,link,link-group
 
+-- import: meenukumari28.github.io/feature-component/
+export: feature-1, feature-2, feature-3, feature-4, feature-5, feature-6, feature-7
+
 -- common.site-logo site-logo: $assets.files.assets.ipsum-logo.svg
 
 -- component page:
@@ -35,7 +38,7 @@ string site-url: $common.site-url
 -- ftd.ui list page.footer:
 
 -- footer.fastn-footer:
-copyright: Copyright © 2023 - meenukumari28.github.io/feature-1
+copyright: Copyright © 2023 - meenukumari28.github.io/feature-components
 site-logo: $common.fastn-logo
 powered-by-text: Powered by
 powered-by-link: https://fastn.com/
