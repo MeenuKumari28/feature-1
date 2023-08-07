@@ -1,0 +1,34 @@
+-- site-doc.doc-home:
+current-package: meenukumari28.github.io/feature-component
+show-tabs: false
+site-title: Feature Component
+github-url: https://github.com/meenukumari28/feature-component
+
+-- ds.feature-6:
+features-1: $common.feature-lists-1
+
+-- site-doc.header: How to use
+
+-- cb.code: Add `feature-6` dependency into your FASTN.ftd
+lang: ftd
+
+\-- fastn.dependency: meenukumari28.github.io/feature-components
+
+-- cb.code: import `feature-6` inside your `.ftd` file
+lang: ftd
+
+\-- import: meenukumari28.github.io/feature-components/feature-6
+
+\-- feature-6:
+features-1: $common.feature-lists-1
+
+-- site-doc.header: Properties:
+
+Below are details of all properties of `feature-6` component.
+
+-- site-doc.component-property: `list`
+type: Record (`required`)
+
+It's used to add list content to `feature-6` component. 
+
+-- end: site-doc.doc-home

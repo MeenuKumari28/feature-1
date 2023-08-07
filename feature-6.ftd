@@ -1,0 +1,7 @@
+-- ds.page:
+full-width: true
+
+-- ds.feature-6:
+features-1: $common.feature-lists-1
+
+-- end: ds.page
