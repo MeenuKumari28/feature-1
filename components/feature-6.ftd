@@ -7,9 +7,6 @@ github-url: https://github.com/meenukumari28/feature-component
 -- ds.feature-6:
 features-1: $common.feature-lists-1
 
-We are an award-winning strategic design company that provides consultancy
-services and help you create outstanding digital products.
-
 -- site-doc.header: How to use
 
 -- cb.code: Add `feature-6` dependency into your FASTN.ftd
@@ -24,9 +21,6 @@ lang: ftd
 
 \-- feature-6:
 features-1: $common.feature-lists-1
-
-We are an award-winning strategic design company that provides consultancy
-services and help you create outstanding digital products.
 
 -- site-doc.header: Properties:
 
